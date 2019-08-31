@@ -1,0 +1,10 @@
+div#logo {
+    position: relative;
+    text-align: center;
+}
+
+div#logo img {
+    width: 300px;
+    height: auto;
+    padding-top: 35px;
+}

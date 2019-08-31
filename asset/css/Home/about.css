@@ -1,0 +1,37 @@
+section#about {}
+
+div#about-title {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 50px 0 50px;
+}
+
+div.about {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+div#about1 {
+    padding: 10px;
+    font-size: 14px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 50px 15px 50px;
+}
+
+div#about2 {
+    padding: 10px;
+    font-size: 14px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 50px 15px 50px;
+}
+
+div#about3 {
+    padding: 10px;
+    font-size: 14px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 50px 15px 50px;
+}
