@@ -3,7 +3,12 @@ section#about {}
 div#about-title {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 70px 50px 0 50px;
+    padding: 60px 50px 60px 70px;
+}
+
+div#about-title h3 {
+    font-size: 90px;
+    font-weight: bold;
 }
 
 div.about {
