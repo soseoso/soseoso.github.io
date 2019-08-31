@@ -1,4 +1,7 @@
-section#about {}
+section#about {
+    display: flex;
+    flex-direction: row;
+}
 
 div#about-title {
     max-width: 1200px;
@@ -12,10 +15,16 @@ div#about-title h3 {
 }
 
 div.about {
+    margin-right: 200px;
+    padding: 60px 0 60px 0;
+}
+
+
+/* div.about {
     margin: 0 !important;
     padding: 0 !important;
     width: 100%;
-}
+} */
 
 div#about1 {
     padding: 10px;
