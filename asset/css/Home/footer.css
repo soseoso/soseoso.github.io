@@ -1,0 +1,30 @@
+div#footer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* div#footer-logo {
+    padding-top: 10px;
+} */
+
+div#footer-logo img {
+    width: 148px;
+}
+
+div#footer-info {
+    padding-top: 10px;
+}
+
+div#footer-info span {
+    font-size: 12px;
+}
+
+div#copyright {
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+div#copyright span {
+    font-size: 12px;
+}
