@@ -49,7 +49,7 @@
         </div>
         <!-- Logo end -->
         <!-- Sidenav start -->
-        <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+        <span id='hamburger' onclick="openNav()" style="display: none; width: 30px;"><i class="fas fa-bars"></i></span>
         <!-- Sidenav end -->
         <!-- Nav start -->
         <ul class="nav justify-content-center">
@@ -71,14 +71,6 @@
         </ul>
         <hr>
         <!-- Nav end -->
-    </div>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">HOME</a>
-        <a href="#">ABOUT</a>
-        <a href="#">MODEL</a>
-        <a href="#">ACADEMY</a>
-        <a href="#">CONTACT</a>
     </div>
     <div class="container-n">
         <!-- Carousel start -->
@@ -108,6 +100,14 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">MODEL</a>
+            <a href="#">ACADEMY</a>
+            <a href="#">CONTACT</a>
         </div>
     </div>
     <!-- Carousel end -->

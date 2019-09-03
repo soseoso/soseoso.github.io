@@ -1,5 +1,6 @@
 ul.nav {
-    padding-top: 10px;
+    /* padding-top: 10px; */
+    /* visibility: visible; */
 }
 
 a.nav-link {
@@ -18,4 +19,11 @@ a.nav-link:active {
 
 hr {
     border: 1px solid #754C9E;
+}
+
+@media (max-width: 600px) {
+    /* me */
+    ul.nav {
+        display: none;
+    }
 }
