@@ -1,3 +1,9 @@
 div.carousel-item img {
     margin: auto;
 }
+
+@media screen and (max-width: 450px) {
+    div.carousel-itm img {
+        margin: auto;
+    }
+}
