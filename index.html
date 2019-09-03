@@ -49,7 +49,7 @@
         </div>
         <!-- Logo end -->
         <!-- Sidenav start -->
-        <span id='hamburger' onclick="openNav()" style="font-size: 2em;"><i class="fas fa-bars"></i></span>
+        <span id='hamburger' onclick="openNav()" style=""><i class="fas fa-bars"></i></span>
         <!-- Sidenav end -->
         <!-- Nav start -->
         <ul class="nav justify-content-center">
@@ -79,6 +79,16 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <div>
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">HOME</a>
+                        <a href="#">ABOUT</a>
+                        <a href="#">MODEL</a>
+                        <a href="#">ACADEMY</a>
+                        <a href="#">CONTACT</a>
+                    </div>
+                </div>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -100,14 +110,6 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-        </div>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="#">MODEL</a>
-            <a href="#">ACADEMY</a>
-            <a href="#">CONTACT</a>
         </div>
     </div>
     <!-- Carousel end -->

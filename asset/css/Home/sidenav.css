@@ -1,5 +1,6 @@
 span#hamburger {
     display: none;
+    font-size: 2em;
 }
 
 
@@ -33,7 +34,7 @@ span#hamburger {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #f1f1f1;
     display: block;
     transition: 0.3s;
@@ -73,12 +74,13 @@ span#hamburger {
         padding-top: 15px;
     }
     .sidenav a {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 
 @media screen and (max-width: 600px) {
     span#hamburger {
         display: inline-block;
+        font-size: 1em;
     }
 }
