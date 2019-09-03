@@ -49,3 +49,9 @@ div#about3 {
     margin: 0 auto;
     padding: 20px 50px 15px 50px;
 }
+
+@media screen and (max-width: 450px) {
+    section#about {
+        display: block;
+    }
+}

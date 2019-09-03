@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TNBT Model</title>
+    <!-- font awesome kits -->
+    <script src="https://kit.fontawesome.com/22c6db0b78.js"></script>
     <!-- bootstrap CDN start -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -16,7 +18,11 @@
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
     <!-- css stylesheet start -->
-    <link rel="stylesheet" href="asset/css/Home/about.css">
+    <link rel="stylesheet" href="asset/css/Home/logo.css">
+    <link rel="stylesheet" href="asset/css/Home/nav.css">
+    <link rel="stylesheet" href="asset/css/Home/sidenav.css">
+    <link rel="stylesheet" href="asset/css/Home/footer.css">
+    <link rel="stylesheet" href="asset/css/About/about.css">
     <!-- css stylesheet end-->
     <style>
         html,
@@ -25,30 +31,109 @@
             padding: 0;
             font-family: 'Fira Sans', sans-serif;
         }
+        
+        div.container-n {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 50px 0 50px;
+        }
     </style>
 </head>
 
 <body>
-    <!-- Carousel end -->
-    <!-- About start -->
-    <section id="about">
-        <div id="about-title">
-            <h3>T&nbsp&nbspH&nbsp&nbspE
-                <br>N&nbspE&nbspX&nbspT
-                <br>B&nbsp&nbspI&nbsp&nbspG
-                <br>T&nbspH&nbspI&nbspN&nbspG
-            </h3>
+    <div class="container-n">
+        <!-- Logo start -->
+        <div id='logo'>
+            <img src="asset/image/TnbtLogo.webp" alt="">
         </div>
-        <div class="about-text">
-            <div class="about" style="background-color: #FEE9FF;">
-                <div id="about1">
-                    <p>TNBT 모델 에이전시는 보여지기 식의 모델이 아닌<br/>사회적 롤 모델이 될 수 있도록 트레이닝하며,<br/>진실을 바탕으로 한 소통으로 신뢰를 주는 모델 문화를 추구합니다.</p>
+        <!-- Logo end -->
+        <!-- Sidenav start -->
+        <span id='hamburger' onclick="openNav()" style=""><i class="fas fa-bars"></i></span>
+        <!-- Sidenav end -->
+        <!-- Nav start -->
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">MODEL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ACADEMY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+            </li>
+        </ul>
+        <hr>
+        <!-- Nav end -->
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="#">MODEL</a>
+        <a href="#">ACADEMY</a>
+        <a href="#">CONTACT</a>
+    </div>
+    <!-- About start -->
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-4">
+                <h3>T&nbsp&nbspH&nbsp&nbspE
+                    <br>N&nbspE&nbspX&nbspT
+                    <br>B&nbsp&nbspI&nbsp&nbspG
+                    <br>T&nbspH&nbspI&nbspN&nbspG
+                </h3>
+            </div>
+            <div class="col col-lg-4">
+                <div class="" style="">
+                    <div id="">
+                        <p>TNBT 모델 에이전시는 보여지기 식의 모델이 아닌<br/>사회적 롤 모델이 될 수 있도록 트레이닝하며,<br/>진실을 바탕으로 한 소통으로 신뢰를 주는 모델 문화를 추구합니다.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    <!-- <div class="container-n">
+        <section id="about">
+            <div id="about-title">
+                <h3>T&nbsp&nbspH&nbsp&nbspE
+                    <br>N&nbspE&nbspX&nbspT
+                    <br>B&nbsp&nbspI&nbsp&nbspG
+                    <br>T&nbspH&nbspI&nbspN&nbspG
+                </h3>
+            </div>
+            <div class="about-text">
+                <div class="about" style="background-color: #FEE9FF;">
+                    <div id="about1">
+                        <p>TNBT 모델 에이전시는 보여지기 식의 모델이 아닌<br/>사회적 롤 모델이 될 수 있도록 트레이닝하며,<br/>진실을 바탕으로 한 소통으로 신뢰를 주는 모델 문화를 추구합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div> -->
     <!-- About end -->
+    <!-- footer start -->
+    <div id='footer'>
+        <div id='footer-logo'>
+            <img src="asset/image/footer-logo.PNG" alt="">
+        </div>
+        <div id="footer-info">
+            <span>
+                    +82) 02 336 3391&nbsp|&nbsptnbtmodel@gmail.com&nbsp|&nbsp서울시 마포구 신촌로 
+                </span>
+        </div>
+        <div id="copyright">
+            <span>© 2015. TNBTmodel all rights reserved.</span>
+        </div>
+    </div>
+    <!-- footer end -->
 
+    <script src="asset/js/sidenav.js"></script>
 </body>
 
 </html>
