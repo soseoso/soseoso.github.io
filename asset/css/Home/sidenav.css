@@ -1,3 +1,8 @@
+span#hamburger {
+    display: none;
+}
+
+
 /* The side navigation menu */
 
 .sidenav {
@@ -72,8 +77,8 @@
     }
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     span#hamburger {
-        display: block;
+        display: inline-block;
     }
 }
