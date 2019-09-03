@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TNBT Model</title>
+    <!-- font awesome kits -->
+    <script src="https://kit.fontawesome.com/22c6db0b78.js"></script>
     <!-- bootstrap CDN start -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -15,8 +17,6 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
-    <!-- font awesome kits -->
-    <script src="https://kit.fontawesome.com/22c6db0b78.js"></script>
     <!-- css stylesheet start -->
     <link rel="stylesheet" href="asset/css/Home/logo.css">
     <link rel="stylesheet" href="asset/css/Home/nav.css">
@@ -42,97 +42,96 @@
 </head>
 
 <body>
-    <div id='main'>
-        <div class="container-n">
-            <!-- Logo start -->
-            <div id='logo'>
-                <img src="asset/image/TnbtLogo.webp" alt="">
-            </div>
-            <!-- Logo end -->
-            <!-- Sidenav start -->
-            <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">HOME</a>
-                <a href="#">ABOUT</a>
-                <a href="#">MODEL</a>
-                <a href="#">ACADEMY</a>
-                <a href="#">CONTACT</a>
-            </div>
-            <span onclick="openNav()"><i class="fas fa-bars"></i></span>
-            <!-- Sidenav end -->
-            <!-- Nav start -->
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">MODEL</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ACADEMY</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
-                </li>
-            </ul>
-            <hr>
-            <!-- Nav end -->
-            <!-- Carousel start -->
+    <div class="container-n">
+        <!-- Logo start -->
+        <div id='logo'>
+            <img src="asset/image/TnbtLogo.webp" alt="">
         </div>
-        <div class="container-n">
-            <div id="carouselExampleFade" data-interval="2000" class="carousel slide carousel-fade" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="asset/image/carousel1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="asset/image/carousel2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="asset/image/carousel3.jpg" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <!-- style="visibility: hidden;" -->
-                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-        <!-- Carousel end -->
-
-        <!-- Photo card start -->
-
-        <!-- Photo card end -->
+        <!-- Logo end -->
+        <!-- Sidenav start -->
+        <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+        <!-- Sidenav end -->
+        <!-- Nav start -->
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">MODEL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ACADEMY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+            </li>
+        </ul>
         <hr>
-        <!-- footer start -->
-        <div id='footer'>
-            <div id='footer-logo'>
-                <img src="asset/image/footer-logo.PNG" alt="">
+        <!-- Nav end -->
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">MODEL</a>
+        <a href="#">ACADEMY</a>
+        <a href="#">CONTACT</a>
+    </div>
+    <div class="container-n">
+        <!-- Carousel start -->
+        <div id="carouselExampleFade" data-interval="2000" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="asset/image/carousel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="asset/image/carousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="asset/image/carousel3.jpg" class="d-block w-100" alt="...">
+                </div>
             </div>
-            <div id="footer-info">
-                <span>
+            <!-- style="visibility: hidden;" -->
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel end -->
+
+    <!-- Photo card start -->
+
+    <!-- Photo card end -->
+    <hr>
+    <!-- footer start -->
+    <div id='footer'>
+        <div id='footer-logo'>
+            <img src="asset/image/footer-logo.PNG" alt="">
+        </div>
+        <div id="footer-info">
+            <span>
                 +82) 02 336 3391&nbsp|&nbsptnbtmodel@gmail.com&nbsp|&nbsp서울시 마포구 신촌로 
             </span>
-            </div>
-            <div id="copyright">
-                <span>© 2015. TNBTmodel all rights reserved.</span>
-            </div>
         </div>
-        <!-- footer end -->
+        <div id="copyright">
+            <span>© 2015. TNBTmodel all rights reserved.</span>
+        </div>
     </div>
+    <!-- footer end -->
+
     <script src="asset/js/sidenav.js"></script>
 </body>
 
