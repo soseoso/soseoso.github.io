@@ -9,7 +9,7 @@ div#footer {
 } */
 
 div#footer-logo img {
-    width: 110px;
+    width: 90px;
     height: auto;
 }
 
@@ -32,7 +32,7 @@ div#copyright span {
 
 @media screen and (max-width: 450px) {
     div#footer-logo img {
-        width: 70px;
+        width: 50px;
         height: auto;
     }
 }
