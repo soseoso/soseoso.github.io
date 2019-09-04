@@ -9,7 +9,8 @@ div#footer {
 } */
 
 div#footer-logo img {
-    width: 148px;
+    width: 110px;
+    height: auto;
 }
 
 div#footer-info {
@@ -27,4 +28,11 @@ div#copyright {
 
 div#copyright span {
     font-size: 12px;
+}
+
+@media screen and (max-width: 450px) {
+    div#footer-logo img {
+        width: 70px;
+        height: auto;
+    }
 }
