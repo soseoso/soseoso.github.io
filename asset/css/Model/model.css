@@ -1,0 +1,9 @@
+div.model-line {
+    display: flex;
+    flex-direction: row;
+}
+
+img#kimharin {
+    width: 100px;
+    height: auto;
+}

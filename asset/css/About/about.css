@@ -1,22 +1,41 @@
-section#about {
-    display: flex;
-    flex-direction: row;
-}
-
-div#about-title {
+section#overview {
     max-width: 1200px;
     margin: 0 auto;
     padding: 60px 50px 60px 70px;
 }
 
-div#about-title h3 {
-    font-size: 90px;
-    font-weight: bold;
+div#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-div.about {
-    margin-right: 200px;
-    padding: 60px 0 60px 0;
+div#about-h {
+    border: 2px solid #eeeeee;
+    background-image: url('../../image/about.jpg');
+    background-repeat: no-repeat;
+    background-size: 450px;
+    width: 450px;
+    height: 300px;
+}
+
+div#about-h h3 {
+    display: block;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px #c4aaa1;
+    color: #eeeeee;
+}
+
+div#about-p {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    line-height: 1.8em;
 }
 
 
@@ -26,28 +45,16 @@ div.about {
     width: 100%;
 } */
 
-div#about1 {
-    padding: 10px;
-    font-size: 14px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 50px 15px 50px;
+div#about-p1 {
+    color: #754C9E;
 }
 
-div#about2 {
-    padding: 10px;
-    font-size: 14px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 50px 15px 50px;
+div#about-p2 {
+    color: #9e664c;
 }
 
-div#about3 {
-    padding: 10px;
-    font-size: 14px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 50px 15px 50px;
+div#about-p3 {
+    color: #754C9E;
 }
 
 @media screen and (max-width: 450px) {
