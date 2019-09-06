@@ -47,6 +47,8 @@ div#about-m {
 }
 
 div#about-p {
+    font-family: 'Nanum Gothic', sans-serif;
+    /* font-family: 'Noto Sans KR', sans-serif; */
     font-size: 14px;
     font-weight: bold;
     padding-top: 10px;
@@ -103,7 +105,8 @@ div#about-p3 {
         display: block !important;
         color: #6500c9;
         font-size: 30px;
-        padding-top: 10px;
+        padding-top: 15px;
+        padding-left: 0;
         text-align: center;
     }
     div#about-p {
@@ -134,7 +137,7 @@ div#about-p3 {
         background-repeat: no-repeat;
         background-size: 270px;
         width: 270px;
-        height: 135px;
+        height: 180px;
     }
     div#about-h h3 {
         display: none !important;
@@ -143,7 +146,8 @@ div#about-p3 {
         display: block !important;
         color: #6500c9;
         font-size: 25px;
-        padding-top: 10px;
+        padding-top: 15px;
+        padding-left: 0;
         text-align: center;
     }
     div#about-p {
