@@ -32,7 +32,13 @@ div#copyright span {
 
 @media screen and (max-width: 450px) {
     div#footer-logo img {
-        width: 50px;
+        width: 55px;
         height: auto;
+    }
+    div#footer-info span {
+        font-size: 11px;
+    }
+    div#copyright span {
+        font-size: 11px;
     }
 }

@@ -3,7 +3,7 @@ div.model-line {
     flex-direction: row;
 }
 
-img#kimharin {
-    width: 100px;
+div.model-img img {
+    width: 200px;
     height: auto;
 }
