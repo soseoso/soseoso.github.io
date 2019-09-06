@@ -4,7 +4,13 @@ div#logo {
 }
 
 div#logo img {
-    width: 300px;
+    width: 250px;
     height: auto;
     padding-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    div#logo img {
+        width: 150px;
+    }
 }

@@ -12,6 +12,17 @@ div#about {
     width: 100%;
 }
 
+div#about-title {
+    display: block;
+    padding-left: 60px;
+    padding-top: 170px;
+}
+
+div#about-title h1 {
+    font-size: bold;
+    color: #300d00;
+}
+
 div#about-h {
     border: 2px solid #eeeeee;
     background-image: url('../../image/about.jpg');
@@ -31,10 +42,15 @@ div#about-h h3 {
     color: #eeeeee;
 }
 
+div#about-m {
+    display: none;
+}
+
 div#about-p {
     font-size: 14px;
     font-weight: bold;
-    padding-left: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
     line-height: 1.8em;
 }
 
@@ -58,6 +74,12 @@ div#about-p3 {
 }
 
 @media (min-width: 451px) and (max-width: 758px) {
+    div#about-title {
+        display: block;
+        padding-left: 0;
+        text-align: center;
+        padding-top: 170px;
+    }
     div#about {
         display: block !important;
         flex-direction: unset;
@@ -75,22 +97,29 @@ div#about-p3 {
         height: 230px;
     }
     div#about-h h3 {
-        display: block;
-        padding-top: 7px;
-        padding-left: 7px;
-        font-size: 40px;
-        font-weight: bold;
-        text-shadow: 1px 1px #c4aaa1;
-        color: #eeeeee;
+        display: none !important;
+    }
+    div#about-m {
+        display: block !important;
+        color: #6500c9;
+        font-size: 35px;
+        padding-top: 10px;
+        text-align: center;
     }
     div#about-p {
         display: block;
         padding-top: 30px;
-        padding-left: 5px;
+        padding-left: 0;
     }
 }
 
 @media screen and (max-width: 450px) {
+    div#about-title {
+        display: block;
+        padding-left: 0;
+        text-align: center;
+        padding-top: 150px;
+    }
     div#about {
         display: block !important;
         flex-direction: unset;
@@ -103,22 +132,23 @@ div#about-p3 {
         border: 2px solid #eeeeee;
         background-image: url('../../image/about.jpg');
         background-repeat: no-repeat;
-        background-size: 300px;
-        width: 300px;
-        height: 200px;
+        background-size: 270px;
+        width: 270px;
+        height: 135px;
     }
     div#about-h h3 {
-        display: block;
-        padding-top: 7px;
-        padding-left: 7px;
-        font-size: 40px;
-        font-weight: bold;
-        text-shadow: 1px 1px #c4aaa1;
-        color: #eeeeee;
+        display: none !important;
+    }
+    div#about-m {
+        display: block !important;
+        color: #6500c9;
+        font-size: 35px;
+        padding-top: 10px;
+        text-align: center;
     }
     div#about-p {
         display: block;
         padding-top: 30px;
-        padding-left: 5px;
+        padding-left: 0;
     }
 }

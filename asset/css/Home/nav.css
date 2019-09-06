@@ -4,6 +4,7 @@ ul.nav {
 }
 
 a.nav-link {
+    font-size: 15px;
     text-decoration: none;
     font-weight: 500;
     color: black;
@@ -21,7 +22,7 @@ hr {
     border: 1px solid #754C9E;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     /* me */
     ul.nav {
         display: none;
