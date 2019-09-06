@@ -2,14 +2,72 @@ div.model-line {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
 }
 
 div.model-img {
-    padding-top: 20px;
-    padding-bottom: 30px;
+    width: 30%;
 }
 
-div.model-img img {
-    width: 330px;
+div#model1 {
+    background-image: url('../../image/kimharin-e.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+div#model2 {
+    background-image: url('../../image/byulna-e.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+div#model3 {
+    background-image: url('../../image/kimminjoo-e.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+div#model4 {
+    background-image: url('../../image/namyukyeong-e.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+div#model5 {
+    background-image: url('../../image/leehyunjeong-e.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+div#model6 {
+    background-image: url('../../image/kwoneungyeung-e.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+
+/* div.model-img img {
+    width: 100;
     height: auto;
+} */
+
+@media (min-width: 0px) and (max-width: 758px) {
+    div#model {
+        justify-content: center;
+        text-align: center;
+    }
+    div.model-line {
+        display: block !important;
+        flex-direction: unset;
+        justify-content: center;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    div.model-img {
+        margin-top: 30px !important;
+        margin-bottom: 10px !important;
+        width: 80%;
+        margin: auto;
+    }
 }
