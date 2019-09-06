@@ -57,7 +57,7 @@ div#about-p3 {
     color: #784c9e;
 }
 
-@media screen and (max-width: 758px) {
+@media (min-width: 451px) and (max-width: 758px) {
     div#about {
         display: block !important;
         flex-direction: unset;
@@ -73,6 +73,39 @@ div#about-p3 {
         background-size: 345px;
         width: 345px;
         height: 230px;
+    }
+    div#about-h h3 {
+        display: block;
+        padding-top: 7px;
+        padding-left: 7px;
+        font-size: 40px;
+        font-weight: bold;
+        text-shadow: 1px 1px #c4aaa1;
+        color: #eeeeee;
+    }
+    div#about-p {
+        display: block;
+        padding-top: 30px;
+        padding-left: 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    div#about {
+        display: block !important;
+        flex-direction: unset;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    div#about-h {
+        display: block;
+        border: 2px solid #eeeeee;
+        background-image: url('../../image/about.jpg');
+        background-repeat: no-repeat;
+        background-size: 300px;
+        width: 300px;
+        height: 200px;
     }
     div#about-h h3 {
         display: block;
