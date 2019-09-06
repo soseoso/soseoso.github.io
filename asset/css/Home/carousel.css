@@ -3,7 +3,13 @@ div.carousel-item img {
 }
 
 @media screen and (max-width: 450px) {
-    div.carousel-itm img {
+    div.carousel-item img {
         margin: auto;
+    }
+}
+
+@media (min-width: 758px) {
+    div.carousel-item img {
+        width: 50%;
     }
 }
