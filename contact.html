@@ -16,14 +16,13 @@
     <!-- favicon  -->
     <link rel="shortcut icon" href="favicon.ico" />
     <!-- google font -->
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Noto+Sans+KR|Nanum+Gothic&display=swap" rel="stylesheet">
     <!-- css stylesheet start -->
     <link rel="stylesheet" href="asset/css/Home/logo.css">
     <link rel="stylesheet" href="asset/css/Home/nav.css">
     <link rel="stylesheet" href="asset/css/Home/sidenav.css">
     <link rel="stylesheet" href="asset/css/Home/footer.css">
-    <link rel="stylesheet" href="asset/css/Model/model.css">
-    <link rel="stylesheet" href="asset/css/Model/hvr.css">
+    <link rel="stylesheet" href="asset/css/Contact/contact.css">
     <!-- css stylesheet end-->
     <style>
         html,
@@ -80,53 +79,49 @@
         <a href="#">ACADEMY</a>
         <a href="contact.html">CONTACT</a>
     </div>
-    <!-- Model start -->
-    <div class="container-n">
-        <div id='model'>
-            <div class="model-line">
-                <div class="model-img hvrbox" id='model6'>
-                    <div class="hvrbox-layer_top">
-                        <div class="hvrbox-text"><a href="">Kwon Eun Gyeung</a></div>
-                    </div>
-                    <!-- <img src="asset/image/kwoneungyeung-e.jpg" alt=""> -->
-                </div>
-                <div class="model-img hvrbox" id='model3'>
-                    <div class="hvrbox-layer_top">
-                        <div class="hvrbox-text"><a href="">Kim Min Joo</a></div>
-                    </div>
-                    <!-- <img src="asset/image/kimminjoo-e.jpg" alt=""> -->
-                </div>
-                <div class="model-img hvrbox" id='model1'>
-                    <div class="hvrbox-layer_top">
-                        <div class="hvrbox-text"><a href="">Kim Ha Rin</a></div>
-                    </div>
-                    <!-- <img id='kimharin' src="asset/image/kimharin-e.jpg" alt=""> -->
-                </div>
+    <!-- About start -->
+    <section id='overview'>
+        <div id='contact'>
+            <div class="contact-content" id='contact-h'>
+                <h3>
+                    CONTACT US
+                </h3>
             </div>
-            <div class="model-line">
-                <div class="model-img hvrbox" id='model4'>
-                    <div class="hvrbox-layer_top">
-                        <div class="hvrbox-text"><a href="">Nam Yu Kyeong</a></div>
+            <div class="contact-content" id='contact-f'>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for='inputname'>Name</label>
+                        <input type="text" class="form-control contact-input" id='inputname' placeholder="name">
                     </div>
-                    <!-- <img src="asset/image/namyukyeong-e.jpg" alt=""> -->
-                </div>
-                <div class="model-img hvrbox" id='model2'>
-                    <div class="hvrbox-layer_top">
-                        <div class="hvrbox-text"><a href="">Byul Na</a></div>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for='inputphone'>Phone Number</label>
+                            <input type="tel" class="form-control contact-input" id='inputphone' placeholder="Phone Number">
+                        </div>
                     </div>
-                    <!-- <img src="asset/image/byulna-e.jpg" alt=""> -->
-                </div>
-                <div class="model-img hvrbox" id='model5'>
-                    <div class="hvrbox-layer_top">
-                        <div class="hvrbox-text"><a href="">Lee Hyun Jeong</a></div>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for='inputemail'>Email</label>
+                            <input type="email" class="form-control contact-input" id='inputemail' placeholder="E-mail">
+                        </div>
                     </div>
-                    <!-- <img src="asset/image/leehyunjeong-e.jpg" alt=""> -->
-                </div>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for='inputsubject'>Subject</label>
+                            <input type="text" class="form-control contact-input" id='inputsubject' placeholder="Subject">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for='inputmessage'>Message</label>
+                            <input type="text" class="form-control contact-input" id='inputmessage' placeholder="Message">
+                        </div>
+                    </div>
 
+                </form>
             </div>
         </div>
-    </div>
-    <!-- Model end -->
+    </section>
     <div class='container-n'>
         <hr>
     </div>
@@ -145,13 +140,7 @@
         </div>
     </div>
     <!-- footer end -->
-    <script>
-        var model_img = $('.model-img');
-        var hvrbox = $('.hvrbox');
-        model_img.css('height', model_img.width());
-        hvrbox.css('height', hvrbox.width());
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
     <script src="asset/js/sidenav.js"></script>
 </body>
 

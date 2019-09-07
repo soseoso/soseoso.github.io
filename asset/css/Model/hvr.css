@@ -46,3 +46,9 @@
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width: 758px) {
+    .hvrbox .hvrbox-text {
+        font-size: 18px;
+    }
+}

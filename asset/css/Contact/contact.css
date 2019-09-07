@@ -1,0 +1,96 @@
+section#overview {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0 60px 0;
+}
+
+div#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+div#contact-h {
+    border: 2px solid #eeeeee;
+    background-image: url('../../image/contact-c.jpg');
+    background-repeat: no-repeat;
+    background-size: 450px;
+    width: 450px;
+    height: 300px;
+}
+
+div#contact-h h3 {
+    display: block;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px #c4aaa1;
+    color: #eeeeee;
+}
+
+div#cotact-f {
+    font-family: 'Nanum Gothic', sans-serif;
+    /* font-family: 'Noto Sans KR', sans-serif; */
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 20px;
+    line-height: 1.8em;
+}
+
+@media (min-width: 451px) and (max-width: 758px) {
+    div#contact {
+        display: block !important;
+        flex-direction: unset;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    div#contact-h {
+        display: block;
+        border: 2px solid #eeeeee;
+        background-image: url('../../image/about.jpg');
+        background-repeat: no-repeat;
+        background-size: 345px;
+        width: 345px;
+        height: 230px;
+    }
+    div#contact-h h3 {
+        display: none !important;
+    }
+    div#contact-p {
+        display: block;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    div#contact {
+        display: block !important;
+        flex-direction: unset;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    div#contact-h {
+        display: block;
+        border: 2px solid #eeeeee;
+        background-image: url('../../image/about.jpg');
+        background-repeat: no-repeat;
+        background-size: 270px;
+        width: 270px;
+        height: 180px;
+    }
+    div#contact-h h3 {
+        display: none !important;
+    }
+    div#contact-f {
+        display: block;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+}
