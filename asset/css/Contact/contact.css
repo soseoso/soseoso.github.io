@@ -79,9 +79,9 @@ div#cotact-f {
         border: 2px solid #eeeeee;
         background-image: url('../../image/contact-c.jpg');
         background-repeat: no-repeat;
-        background-size: px;
-        width: 345px;
-        height: 230px;
+        background-size: 320px;
+        width: 320px;
+        height: 400px;
     }
     div#contact-h #contact-h-text h3 {
         display: none !important;
@@ -106,9 +106,9 @@ div#cotact-f {
         border: 2px solid #eeeeee;
         background-image: url('../../image/contact-c.jpg');
         background-repeat: no-repeat;
-        background-size: 270px;
-        width: 270px;
-        height: 180px;
+        background-size: 320px;
+        width: 320px;
+        height: 400px;
     }
     div#contact-h #contact-h-text h3 {
         display: none !important;
