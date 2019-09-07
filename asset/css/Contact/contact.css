@@ -4,7 +4,7 @@ section#overview {
     padding: 60px 0 60px 0;
 }
 
-div#academy {
+div#contact {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -66,7 +66,7 @@ div#cotact-f {
 }
 
 @media (min-width: 451px) and (max-width: 758px) {
-    div#academy {
+    div#contact {
         display: block !important;
         flex-direction: unset;
         justify-content: center;
@@ -107,7 +107,7 @@ div#cotact-f {
 }
 
 @media screen and (max-width: 450px) {
-    div#academy {
+    div#contact {
         display: block !important;
         flex-direction: unset;
         justify-content: center;
