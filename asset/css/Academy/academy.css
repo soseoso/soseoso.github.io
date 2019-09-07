@@ -9,7 +9,8 @@ div#academy-title {
     color: #321f41;
 }
 
-div#academy-title h1 {
+div#academy-title p#at-h {
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -25,10 +26,9 @@ div#academy-list {
 div.academy {
     display: flex;
     flex-direction: row;
-    height: 200px;
-    background-color: #f7f4fa;
+    height: 220px;
     align-items: center;
-    width: 50%;
+    width: 45%;
 }
 
 div.academy-p {
@@ -40,42 +40,110 @@ div.academy-p img {
     filter: grayscale(100%);
 }
 
-div#academy-e {}
+div.academy-e {
+    padding-left: 50px;
+}
+
+p.a-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+p.a-cate {
+    font-family: 'Anton', sans-serif;
+    color: #b05340;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+p.a-text {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
 
 @media (min-width: 451px) and (max-width: 758px) {
-    div#academy-title {
-        text-align: center;
-        color: #321f41;
-    }
-    div#academy-title h1 {
+    div#academy-title p#at-h {
         font-weight: bold;
-        font-size: 20x;
+        font-size: 20px !important;
     }
     div#academy-title p {
         font-family: 'Noto Sans KR', sans-serif;
         font-size: 13px;
     }
-    div.academy {}
-    div#academy-p {
-        display: block;
+    div.academy {
+        display: flex;
+        flex-direction: row;
+        height: 180px;
+        align-items: center;
+        width: 100%;
     }
-    div#academy-e {
-        display: block;
+    div.academy-p {
+        padding-left: 30px;
+    }
+    div.academy-p img {
+        width: 120px;
+        filter: grayscale(100%);
+    }
+    div.academy-e {
+        padding-left: 30px;
+    }
+    p.a-title {
+        font-size: 17px;
+        font-weight: bold;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    p.a-cate {
+        font-family: 'Anton', sans-serif;
+        color: #b05340;
+        font-size: 17px;
+        /* font-weight: bold; */
+    }
+    p.a-text {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 13px;
     }
 }
 
 @media screen and (max-width: 450px) {
+    div#academy-title p#at-h {
+        font-weight: bold;
+        font-size: 20px !important;
+    }
+    div#academy-title p {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 13px;
+    }
     div.academy {
-        display: block !important;
-        flex-direction: unset;
-        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        height: 180px;
         align-items: center;
         width: 100%;
     }
-    div#academy-p {
-        display: block;
+    div.academy-p {
+        padding-left: 30px;
     }
-    div#academy-e {
-        display: block;
+    div.academy-p img {
+        width: 120px;
+        filter: grayscale(100%);
+    }
+    div.academy-e {
+        padding-left: 30px;
+    }
+    p.a-title {
+        font-size: 17px;
+        font-weight: bold;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    p.a-cate {
+        font-family: 'Anton', sans-serif;
+        color: #b05340;
+        font-size: 17px;
+        /* font-weight: bold; */
+    }
+    p.a-text {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 13px;
     }
 }
