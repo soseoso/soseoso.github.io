@@ -16,9 +16,10 @@ div#contact-h {
     border: 2px solid #eeeeee;
     background-image: url('../../image/contact-c.jpg');
     background-repeat: no-repeat;
-    background-size: 450px;
-    width: 450px;
-    height: 300px;
+    background-size: 400px;
+    width: 400px;
+    height: 500px;
+    text-align: center;
 }
 
 div#contact-h h3 {
@@ -27,8 +28,7 @@ div#contact-h h3 {
     padding-left: 15px;
     font-size: 50px;
     font-weight: bold;
-    text-shadow: 1px 1px #c4aaa1;
-    color: #eeeeee;
+    color: #784c9e;
 }
 
 div#cotact-f {
@@ -54,7 +54,7 @@ div#cotact-f {
         border: 2px solid #eeeeee;
         background-image: url('../../image/about.jpg');
         background-repeat: no-repeat;
-        background-size: 345px;
+        background-size: px;
         width: 345px;
         height: 230px;
     }
