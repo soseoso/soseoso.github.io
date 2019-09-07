@@ -106,7 +106,8 @@ div#about-p3 {
         display: none !important;
     }
     div#about-m {
-        font-family: 'Caveat', cursive;
+        /* font-family: 'Caveat', cursive; */
+        font-family: 'Kalam', cursive;
         display: block !important;
         color: #2e3731;
         font-size: 30px;
