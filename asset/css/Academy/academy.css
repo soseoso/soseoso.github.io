@@ -18,14 +18,14 @@ div#academy-title p {
     font-size: 14px;
 }
 
-div#contact {
+div.academy {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-div#contact-h {
+div#academy-p {
     border: 2px solid #eeeeee;
     background-image: url('../../image/contact-c.jpg');
     background-repeat: no-repeat;
@@ -80,6 +80,18 @@ div#cotact-f {
 }
 
 @media (min-width: 451px) and (max-width: 758px) {
+    div#academy-title {
+        text-align: center;
+        color: #321f41;
+    }
+    div#academy-title h1 {
+        font-weight: bold;
+        font-size: 20x;
+    }
+    div#academy-title p {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 13px;
+    }
     div#contact {
         display: block !important;
         flex-direction: unset;
