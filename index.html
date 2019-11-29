@@ -1,5 +1,10 @@
 <html lang="en">
 
+<script type="text/javascript">
+  $(window).resize(function(){resizeYoutube();});
+  $(function(){resizeYoutube();});
+  function resizeYoutube(){ $("iframe").each(function(){ if( /^https?:\/\/www.youtube.com\/embed\//g.test($(this).attr("src")) ){ $(this).css("width","100%"); $(this).css("height",Math.ceil( parseInt($(this).css("width")) * 480 / 854 ) + "px");} }); }
+</script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +28,7 @@
     <link rel="stylesheet" href="asset/css/Home/sidenav.css">
     <link rel="stylesheet" href="asset/css/Home/carousel.css">
     <link rel="stylesheet" href="asset/css/Home/photocard.css">
+    <link rel="stylesheet" href="asset/css/Home/youtube.css">
     <link rel="stylesheet" href="asset/css/Home/footer.css">
     <!-- css stylesheet end-->
     <style>
@@ -117,6 +123,17 @@
     <!-- Photo card start -->
 
     <!-- Photo card end -->
+    
+    <!-- Youtube start -->
+    <div class='container-n'>
+        <hr>
+        <div style="margin-top: 45px;">
+            <div id='youtube'>
+                <iframe width="100%" height="aut" src="https://www.youtube.com/embed/RvY-CCC7LxE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Youtube end -->
     <div class='container-n'>
         <hr>
     </div>
