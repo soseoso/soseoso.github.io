@@ -26,7 +26,7 @@ div#about-title img {
 
 div#about-h {
     border: 2px solid #eeeeee;
-    background-image: url('../../image/about.jpg');
+    background-image: url('../../image/about2.jpg');
     background-repeat: no-repeat;
     background-size: 450px;
     width: 450px;
@@ -39,7 +39,7 @@ div#about-h h3 {
     padding-left: 15px;
     font-size: 50px;
     font-weight: bold;
-    text-shadow: 1px 1px #c4aaa1;
+    text-shadow: 1px 1px #aed4f3;
     color: #eeeeee;
 }
 
@@ -96,7 +96,7 @@ div#about-p3 {
     div#about-h {
         display: block;
         border: 2px solid #eeeeee;
-        background-image: url('../../image/about.jpg');
+        background-image: url('../../image/about2.jpg');
         background-repeat: no-repeat;
         background-size: 345px;
         width: 345px;

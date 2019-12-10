@@ -18,39 +18,45 @@ div.model-img {
 }
 
 div#model1 {
-    background-image: url('../../image/kimharin-e.jpg');
+    background-image: url('../../image/kimharin-e2.jpg');
     background-repeat: no-repeat;
     background-size: 100% auto;
+    filter: grayscale(100%);
 }
 
 div#model2 {
-    background-image: url('../../image/byulna-e.jpg');
+    background-image: url('../../image/byulna-e2.jpg');
     background-repeat: no-repeat;
     background-size: 100% auto;
+    filter: grayscale(100%);
 }
 
 div#model3 {
-    background-image: url('../../image/kimminjoo-e.jpg');
+    background-image: url('../../image/kimminjoo-e2.jpg');
     background-repeat: no-repeat;
     background-size: 100% auto;
+    filter: grayscale(100%);
 }
 
 div#model4 {
-    background-image: url('../../image/namyukyeong-e.jpg');
+    background-image: url('../../image/kimseolhee-e.jpg');
     background-repeat: no-repeat;
     background-size: 100% auto;
+    filter: grayscale(100%);
 }
 
 div#model5 {
-    background-image: url('../../image/leehyunjeong-e.jpg');
+    background-image: url('../../image/yeonhyeyoon-e.jpg');
     background-repeat: no-repeat;
     background-size: 100% auto;
+    filter: grayscale(100%);
 }
 
 div#model6 {
     background-image: url('../../image/kwoneungyeung-e.jpg');
     background-repeat: no-repeat;
     background-size: 100% auto;
+    filter: grayscale(100%);
 }
 
 
